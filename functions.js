@@ -35,13 +35,12 @@ function isUserStatusActive(user) {
     return false;
   }
 }
-let activeUser = isUserStatusActive(users[0]);
-
-console.log(activeUser);
 
 // function invocation
 
-isUserStatusActive(users[0]);
+let activeUser = isUserStatusActive(users[0]);
+
+console.log(activeUser);
 
 // invoke and assign the result to a variable
 const userTwoName = getFullName(users[2]);
